@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.thumb {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: tomato;
+  color: white;
+}
+
+.info {
+  width: calc(100% - 120px);
+  padding: 10px;
+}
+
+.info > div {
+  margin: 5px 0;
+}
